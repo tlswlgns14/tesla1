@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.loginBox { margin:200px auto;}
+.loginBox .loginWrap{
+
+    padding: 10px 40px 40px;
+    margin-bottom: 80px; z-index: 99;
+    
+}
+.loginBox .loginForm { text-align: center; 
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    padding:30px 0;
+}
+.loginBox .loginForm .info { text-align: center;}
+.loginBox .loginForm  label{
+    width: 80px; text-align: right;
+    font-size: 12px;
+    color: #777;
+    margin-right: 10px;
+}
+.loginBox .loginForm input{
+    width: 330px; height: 30px;
+    border: 1px #cdcdcd solid;
+    background-color: #f6f6f6;
+    text-indent: 0.5em; margin-right: 80px;
+}
+.loginBox .loginForm input::placeholder { font-size: 13px;}
+.loginBox .loginForm p { padding: 7px 0;}
+.loginBox .loginForm button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 18px 140px;
+    position: relative; top: 0; left: 6px;
+    font-size: 18px;
+}
+
+.loginBox .idpwfind {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.loginBox .idpwfind .join1 { color: #777;}
+.loginBox .loginWrap .idpwfind a { display: inline-block; padding-right: 5px;  font-weight: bold;} 
+.loginBox .idpwfind .join2 { color: #000; font-weight: bold;}
+.loginBox .idpwfind .join3 { padding-top: 10px;}

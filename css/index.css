@@ -1,0 +1,364 @@
+@charset "utf-8";
+.slideOuter {  position: relative;}
+.slideInner { position: relative;}
+.slideInner .slide { height:999.48px; 
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    position:relative;    
+} 
+.slideInner .slide2 { 
+    background-position:center 20px
+} 
+.slideInner .text  {
+    position:absolute;
+    top:21%;
+    transform:translate(-50%, -50%);
+    left:50%;
+    text-align:center;
+  
+}
+.slideInner .text .roll_txtline {
+    position:relative; top:110px; 
+    color:#000; font-size:38px;
+    letter-spacing:2px;
+}
+.slideInner .text a { position:absolute; text-align: center;
+    top:80%; font-size: 18px; background:#000;
+    padding: 10px 30px 10px 30px;;
+    color: #fff;
+    transform:translate(-50%, -50%);
+    left:50%; line-height: 1;
+    transition: all 0.3s;
+}
+.slideInner .text a:hover { background: #fff; color: #000;
+border: 1px solid rgba(0,0,0,0.3);;
+}
+.slideInner .slide1 {
+    background-image:url('../img/Desktop-ModelY.jpg')
+}
+.slideInner .slide2 {
+    background-image:url('../img/CN-D-3.jpg')
+}
+.slideInner .slide3 {
+    background-image:url('../img/mx-homepage-desktop.jpg')
+}
+.slideInner .slide4 {
+    background-image:url('../img/ms-homepage-desktop.jpg')
+}
+.slideInner > .slick-arrow {
+    font-size:90px;
+    color:rgba(0,0,0,0.3);
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+}
+.slideInner > .slick-arrow:nth-of-type(1) {
+    left: 80px; z-index: 9999;
+}
+.slideInner > .slick-arrow:nth-of-type(2) {
+    right: 80px;
+}
+.slideInner .slick-dots {
+    position:absolute; bottom:220px; width:100%;
+    text-align:center; z-index:999;
+} 
+.slideInner .slick-dots li { display:inline-block; margin:0 5px}
+.slideInner .slick-dots li button {
+    width:15px; height:15px; background:#fff;
+    border-radius:50%; border:none; 
+    text-indent:-9999px; overflow:hidden;
+    transition:all 0.5s; border: 1px solid rgba(0,0,0,0.3);;
+} 
+.slideInner .slick-dots li.slick-active button {
+    width:57px; border-radius:50px; background: #000;
+    border: 1px solid #fff
+}
+.plpa { position:absolute; bottom:223px; left:50%; 
+    border:none; color:#fff; transform:translateX(75px);
+    z-index:9999999; 
+}
+ 
+.bgbottombox {
+    display: flex; margin: 0 auto;
+     /* height: 171px;  */ 
+    position: relative; top: -165px; max-width: 1000px;
+}
+.bgbottombox li { width:25%; background:#fff ;font-size: 16px;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 5px 5px 20px  #847f7f; transition: all 0.3s;
+    padding:50px 0;
+}
+.bgbottombox li:hover {
+    background:#05141f; color: #fff;
+}
+.bgbottombox li a { text-align: center; display: block;
+    position: relative; top: 50%; transform: translateY(-50%);
+}
+.bgbottombox li a i { font-size: 33px;
+    display: block; padding-bottom: 15px;} 
+
+
+/* 베스트 테슬라 시작 */
+.slideOuter1 { position: relative; padding-bottom: 50px;}
+.slideOuter1 h2 {
+    font-size:45px; font-weight: bold;
+    text-align:center;
+} 
+.miniSld img { width:100%; display: block; }
+.miniSld p { display: block; font-size: 24px; 
+    text-align: center; font-weight: bold;
+     margin-top: 27px; padding-bottom: 20px;
+}
+.miniSld .informa {display: flex; align-items: center; text-align: center;}
+.miniSld .informa li { position: relative; top:0; left: 10%;
+
+}
+.miniSld .informa li a { color: #05141f99; padding:0 9px; text-align: center;}
+.miniSld .informa li a::after { content:''; width: 1px; height: 12.7px; position: relative; left: 7px; top: 0px; display: inline-block; vertical-align: center; background-color: #000; }
+.slideInner1 { position:relative }
+.slideInner1 .arrows { 
+    border:none;
+    font-size:80px;
+    color:#847f7f;
+    position:absolute; 
+    top:50%;
+    margin-top:-25px;
+}
+.slideInner1 .parr { left:60px; z-index: 99999; }
+.slideInner1 .narr { right:60px; z-index: 99999; }
+ 
+.slideInner1 .slick-slide {
+    opacity: 0.6;
+    transform: scale(0.85);
+    transition: all 0.5s;
+  }
+  .slideInner1 .slick-dots {
+    position:absolute; bottom: -100px;
+    text-align:center; z-index:999; width: 100%;
+} 
+/* .slick-active : 무대에 보여지는 슬라이드 */
+.slideInner1 .slick-slide.slick-active {
+    opacity: 1;
+  }
+
+/* .slick-current : 중심에 보여질 슬라이드 */
+.slideInner1 .slick-slide.slick-active.slick-center.slick-current {
+    opacity: 1;
+    transform: scale(1)
+}
+.slideInner1 .slick-dots li { display:inline-block; margin:0 5px}
+.slideInner1 .slick-dots li button {
+    width:15px; height:15px; background:#847f7f;
+    border-radius:50%; border:none; 
+    text-indent:-9999px; overflow:hidden;
+    transition:all 0.5s; border: 1px solid rgba(0,0,0,0.3);;
+} 
+.slideInner1 .slick-dots li.slick-active button {
+    width:57px; border-radius:50px; background: #000;
+    border: 1px solid #fff 
+}
+.plpa1 { position:absolute; bottom:-49px; left:50%;  width: 21px; height: 21px;
+    color:#000; transform:translateX(98px); text-align: center;
+    z-index:99999999; border-radius: 50%;  border: none;
+}   
+/* 테슬라 박스 */
+.teslaouter { margin-top:200px ;}
+.teslainner  { overflow: hidden;}
+.teslainner .powerwall { float: left; width: 50%;}
+
+.teslainner .powerwall .img_box1 {
+max-width: 530px;
+margin-bottom: 30px;
+width:100% ; position: relative;
+top:0; left: 120px; overflow: hidden;
+}
+.teslainner .powerwall .img_box1 img { transition: all 0.3s;}
+.teslainner .powerwall .img_box1 img:hover { transform: scale(1.1);}
+.teslainner .charge { float: left ;width:50%;}
+.teslainner .charge .img_box2 img { width:100%}
+.teslainner .charge .img_box2 img { transition: all 0.3s;}
+.teslainner .charge .img_box2 img:hover { transform: scale(1.1);}
+.teslaouter .teslainner .powerwall .img_box1 > h3 {  padding-bottom: 30px; text-align: left;
+margin-bottom: 20px; border-bottom: 2px solid #b3b3b3;
+font-size: 28px;
+}
+.teslaouter .teslainner .powerwall .img_box1 > p { font-size: 16px;
+    color: #6e6e6e;text-align: left;
+    letter-spacing: -.045em;}
+  
+.teslaouter .teslainner .charge .img_box2> h3 {  padding-bottom: 30px; margin-bottom: 20px; border-bottom: 2px solid #b3b3b3; font-size: 28px;text-align: left; }
+.teslaouter .teslainner .charge .img_box2 > p { font-size: 16px;
+color: #6e6e6e; letter-spacing: -.045em; text-align:left;}    
+.teslainner .charge .img_box2 {
+    height: 454.27px;
+    margin-bottom: 30px; margin-left: 100px;
+    position: relative; left: -40px; top: -10px;
+    } 
+.chung { position: relative;}
+.chung .chunginner { display: flex; align-items: center;
+    justify-content:space-between; border-bottom: 1px solid #777;
+    color: #fff;
+    width:1000px; margin: 0 auto; position: absolute; top: 10%; left:50%;
+    z-index: 999999;  transform: translateX(-50%);
+    max-width: 100%;
+} 
+.chung .chunginner h1 { font-size: 34px; padding-bottom:17px;}
+.chung .chunginner .geyo { display: flex; align-items: center; justify-content: space-between;}
+.chung .chunginner .geyo > li { padding-left:25px; padding-bottom:17px ;font-size: 13px; }
+video { width: 100%;}  
+
+
+.energyouter { margin:100px 0px 200px; position: relative;}
+.energyouter .energy { position: relative;}
+.energyouter .energy h1 { font-size: 50px; text-align: center;  font-weight: bold; margin-bottom: 60px;}
+.eneso { position: relative;}
+.eneso .slick-dots {
+    position:absolute; bottom:50px; width:100%;
+    text-align:right; z-index:999; padding-right: 100px;
+} 
+.eneso .slick-dots li { display:inline-block; margin:0 5px}
+.eneso .slick-dots li button {
+    width:15px; height:15px; background:#fff;
+    border-radius:50%; border:none; 
+    text-indent:-9999px; overflow:hidden;
+    transition:all 0.5s; border: 1px solid rgba(0,0,0,0.3);
+}  
+.eneso .slick-dots li.slick-active button {
+    width:57px; border-radius:50px; background: #000;
+    border: 1px solid #fff
+}  
+.enepa {  
+    border:none; color:#000; 
+    z-index:9999999; position: absolute; bottom: 53.5px; right:80px;
+  
+}
+.eneso  div.slide { position:relative }
+.eneso  div.slide  p { 
+	position: absolute; top: 10%; left: 0; width:100%; 
+	font-size: 40px; text-align: center; line-height: 1.5; font-weight: bold;
+}
+.eneso  div.enes1  p { color:#000 }
+.eneso  div.enes2  p { color:#fff }
+
+/* 이벤트 */
+.event {padding: 100px 0;
+    background:url(../img/SX3Y-events-header.jpeg) no-repeat fixed center top;
+    /* background-image: url(../img/intro_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed; */
+    background-size: cover;
+    margin-bottom: 80px;
+    color: #fff;
+    text-align: left;
+}
+.event1 { text-align: center;}
+.event1 h2 { color: #fff !important; font-size: 30px; font-weight: bold; line-height:1.6em}
+.event1 a {display: inline-block;
+     margin-top: 20px; 
+     padding: 15px 35px;
+     border: 1px solid #cd9834; font-size: 20px;
+     transition:all 0.5s; font-weight: bold;
+}
+.event1 a:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.miniSld .informa{display:table; width:auto; margin:0 auto}
+.miniSld .informa li{float:left; left:0}
+.overBox{overflow:hidden}
+.slideInner .text{display:block; width:100%}
+.slideInner .text .roll_txtline{padding:0 15px; width:100%}
+.event{padding-left:15px; padding-right:15px}
+.slideInner .text a{top:70%}
+
+.twoImage{display:block; position:relative; width:100%; max-width:1200px; margin:100px auto; padding:0 15px}
+.twoImage>ul{display:block; position:relative; width:100%}
+.twoImage>ul::after{content:""; display:block; clear:both}
+.twoImage>ul>li{display:block; position:relative; float:left; width:calc(50% - 60px); margin-right:120px; transition-duration:0.4s}
+.twoImage>ul>li:last-child{margin-right:0}
+.twoImage .overImage{display:block; position:relative; width:100%; overflow:hidden}
+.twoImage>ul>li img{display:block; position:relative; width:100%; transition-duration:0.3s}
+.twoImage>ul>li:hover img{transform:scale(1.1,1.1)}
+.twoImage>ul>li h3{margin-top:20px; padding-bottom:20px; border-bottom:2px solid #b3b3b3; font-size:28px}
+.twoImage>ul>li p{margin-top:20px; color:#333; line-height:1.6rem}
+
+
+@media screen and (max-width:1000px) {
+    .slideInner .text a { position:absolute; text-align: center;
+        top:110%; font-size: 14px; background:#000;
+        padding: 10px 30px 10px 30px;;
+        color: #fff;
+        transform:translate(-50%, -50%);
+        left:50%; line-height: 1;
+        transition: all 0.3s;
+    }
+
+    .slideOuter1 h2 {
+        font-size:30px; font-weight: bold;
+        text-align:center; margin-top: 60px;
+    } 
+
+    .slideInner .text .roll_txtline{font-size:30px}
+
+    .slideInner .text .roll_txtline {
+        font-size:23px;
+       }
+       .eneso  div.slide  p { 
+        position: absolute; top: 10%; left: 0; width:100%; 
+        font-size: 23px; text-align: center; line-height: 1.5; font-weight: bold;
+    }
+    .slideInner .slick-dots {
+        position:absolute; bottom:50px; width:100%;
+        text-align:center; z-index:999;
+    } 
+    .plpa { position:absolute; bottom:53px; left:50%; 
+        border:none; color:#fff; transform:translateX(75px);
+        z-index:9999999; 
+    }
+    .energyouter .energy h1 { font-size: 30px; text-align: center;  font-weight: bold; margin-bottom: 30px;}
+    .eneso .slick-dots {
+        position:absolute; bottom:20px; width:100%;
+        text-align:center; z-index:999; padding-right:0px;
+    } 
+    .enepa {  
+        border:none; color:#000; 
+        z-index:9999999; position: absolute; bottom:23.5px; right:50%;
+        transform: translateX(65px); 
+    }
+    .event1 h2 { color: #fff !important; font-size: 23px; font-weight: bold; line-height:1.6em}
+    .event1 a {display: inline-block;
+     margin-top: 20px; 
+     padding: 15px 35px;
+     border: 1px solid #cd9834; font-size: 18px;
+     transition:all 0.5s; font-weight: bold;
+}
+
+    .bgbottombox {
+    display: flex; margin: 0 auto;
+     /* height: 171px;  */ 
+    position: relative; top:0px; max-width: 1000px;
+    flex-wrap: wrap; 
+    }
+    .bgbottombox li {background:#fff ;font-size: 16px;
+        border-right: 1px solid rgba(255,255,255,0.3);
+        box-shadow: 5px 5px 20px  #847f7f; transition: all 0.3s;
+        width: 33.33%;  padding: 30px 0px;
+    }
+    .bgbottombox li:nth-child(4),
+    .bgbottombox li:nth-child(5) { 
+        width: 50%;
+    }
+    .slideInner .slide { height:500px; 
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        position:relative;    
+    } 
+
+  
+}
